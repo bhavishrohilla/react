@@ -20,3 +20,31 @@ class Welcome extends React.Component {
         return <h1>Hello, {this.props.name}</h1>
     }
 }
+
+** default export will export the function irrespective of the name of the function
+
+
+FUNCTIONAL-----------
+*Simple functions
+*Use Function components as much as possible
+*Absence of this keyword
+*Solution withouit using state 
+*Mainly responsible for UI
+*Stateless/Dumb/Presentational
+
+
+
+CLASS---------
+*More feature rich
+*mainatain their own private data-state
+*Complex UIprovide lifecycle hooks
+*Statefull/Smart/Conatiner
+
+
+----- JSX -----
+its an extension to JAVASCRIPT language syntax.
+Write XML-like codes for elements and components.
+JSX tags have  tagname, attributes and children.
+JSX is not a necessity to write react applications.
+JSX makes yoyr code simpler and elegant.
+JSX transpiles to pure JAVASCRIPT which is understood by the browsers.
