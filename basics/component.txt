@@ -48,3 +48,9 @@ JSX tags have  tagname, attributes and children.
 JSX is not a necessity to write react applications.
 JSX makes yoyr code simpler and elegant.
 JSX transpiles to pure JAVASCRIPT which is understood by the browsers.
+
+
+
+---props vs state----
+props get passed to the component----managed with the component
+function parameters-----variables declared in the functin body

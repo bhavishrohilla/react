@@ -5,7 +5,7 @@ import React from 'react'
 // }
 
 
-const Greet = (props) =>{
+const Greet = (props) =>{  //props in immutable
     console.log(props) 
     return(
     <div>
