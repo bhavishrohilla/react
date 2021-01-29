@@ -5,20 +5,20 @@ class Message extends Component{
     constructor() {
         super()
         this.state = {
-            messege : "Welcome Visitor"
+            message : "Welcome Visitor"
         }
     }
 
 changeMessege(){
     this.setState({
-        messege : "Thank You for Subscribing."
+        message : "Thank You for Subscribing."
     })
 }
     render() {
         return(
             <div>
-                <h1>{ this.state.messege }</h1>
-                <button onClick={() => this.changeMessege()}>Subscribe</button>
+                <h1>{ this.state.message }</h1>
+                <button onClick={() => this.changeMessage()}>Subscribe</button>
             </div>
         )
     }
