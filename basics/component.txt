@@ -42,18 +42,25 @@ CLASS---------
 
 
 ----- JSX -----
-its an extension to JAVASCRIPT language syntax.
-Write XML-like codes for elements and components.
-JSX tags have  tagname, attributes and children.
-JSX is not a necessity to write react applications.
-JSX makes yoyr code simpler and elegant.
-JSX transpiles to pure JAVASCRIPT which is understood by the browsers.
+*its an extension to JAVASCRIPT language syntax.
+*Write XML-like codes for elements and components.
+*JSX tags have  tagname, attributes and children.
+*JSX is not a necessity to write react applications.
+*JSX makes yoyr code simpler and elegant.
+*JSX transpiles to pure JAVASCRIPT which is understood by the browsers.
 
 
 
 ---props vs state----
-props get passed to the component----managed with the component
-function parameters-----variables declared in the functin body
-props are immutable----state can be changed
-props-functional components------useState Hook-functional component
-this.props-class component-----this.state-class components
+*props get passed to the component----managed with the component
+*function parameters-----variables declared in the functin body
+*props are immutable----state can be changed
+*props-functional components------useState Hook-functional component
+*this.props-class component-----this.state-class components
+
+------   setState   --------
+*always use the setState method and never modify the state directly
+*code has been excuted after the state has been updated? Place the code in the callback function which is the 
+ second aruguement to the setState method
+*When you have to update state based on the previos state value, pass in a function as an aruguement instead of the
+regular object 
