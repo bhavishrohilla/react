@@ -65,4 +65,8 @@ CLASS---------
 *When you have to update state based on the previos state value, pass in a function as an aruguement instead of the
  regular object 
 
- ------EVENT BINDING -----------
+ ------EVENT BINDING -----------methods
+ *binding in render method
+ *arrow function in render
+ *binding in the class constructor
+ *class property as arrow functions
