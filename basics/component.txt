@@ -63,4 +63,4 @@ CLASS---------
 *code has been excuted after the state has been updated? Place the code in the callback function which is the 
  second aruguement to the setState method
 *When you have to update state based on the previos state value, pass in a function as an aruguement instead of the
-regular object 
+ regular object 
