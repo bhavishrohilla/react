@@ -13,6 +13,7 @@ changeMessage(){
     this.setState({
         message : "Thank You for Subscribing."
     })
+    console.log(this)
 }
     render() {
         return(

@@ -64,3 +64,5 @@ CLASS---------
  second aruguement to the setState method
 *When you have to update state based on the previos state value, pass in a function as an aruguement instead of the
  regular object 
+
+ ------EVENT BINDING -----------
