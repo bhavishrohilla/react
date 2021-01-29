@@ -54,3 +54,6 @@ JSX transpiles to pure JAVASCRIPT which is understood by the browsers.
 ---props vs state----
 props get passed to the component----managed with the component
 function parameters-----variables declared in the functin body
+props are immutable----state can be changed
+props-functional components------useState Hook-functional component
+this.props-class component-----this.state-class components
