@@ -9,7 +9,7 @@ class Message extends Component{
         }
     }
 
-changeMessege(){
+changeMessage(){
     this.setState({
         message : "Thank You for Subscribing."
     })
