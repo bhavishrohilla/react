@@ -5,7 +5,7 @@ class ParentComponent extends Component {
 
     constructor(props) {
         super(props)
-    
+    //defining the state
         this.state = {
              parentName : "Parent"
         }
