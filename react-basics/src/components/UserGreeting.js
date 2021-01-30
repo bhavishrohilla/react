@@ -6,17 +6,18 @@ class UserGreeting extends Component {
         super(props)
     
         this.state = {
-             isLoggedIn : true
+             isLoggedIn : false
         }
     }
     
     render() {
 
-        return this.state.isLoggedIn ?(
-            <div>Welcome Vishwas</div>
-        ) : (
-            <div>Welcome Guest</div>
-        )
+        return this.state.isLoggedIn && <div>Welcome Vishwas</div>
+        // return this.state.isLoggedIn ?(
+        //     <div>Welcome Vishwas</div>
+        // ) : (
+        //     <div>Welcome Guest</div>
+        // )
 //alternate method
     //     let message
     //     if (this.state.isLoggedIn) {

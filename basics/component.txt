@@ -72,5 +72,9 @@ CLASS---------
  *class property as arrow functions
  *a method can be called by arrow functions in JSX along with a parameter
 
- TERNARY CONDITIOINAL OPERATOR APPROACH
+ ------------TERNARY CONDITIOINAL OPERATOR APPROACH
  state ?(true) : (false)
+
+ ---------SHORT CIRCUIT
+state && true
+if the state is false, nothing is returned 
