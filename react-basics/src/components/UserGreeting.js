@@ -11,14 +11,15 @@ class UserGreeting extends Component {
     }
     
     render() {
-
+//short circuit method
         return this.state.isLoggedIn && <div>Welcome Vishwas</div>
+//ternary operator
         // return this.state.isLoggedIn ?(
         //     <div>Welcome Vishwas</div>
         // ) : (
         //     <div>Welcome Guest</div>
         // )
-//alternate method
+//alternate method(element variables)
     //     let message
     //     if (this.state.isLoggedIn) {
     //         message = <div>Welcome Vishwas</div>
@@ -27,7 +28,7 @@ class UserGreeting extends Component {
     //     }
     // return <div>{message}</div>
 
-//alternate method 
+//alternate method (if-else)
         // if (this.state.isLoggedIn) {
         //     return <div>Hello Vishwas</div>
         // } else{
@@ -40,5 +41,4 @@ class UserGreeting extends Component {
         // )
     }
 }
-
 export default UserGreeting

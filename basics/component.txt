@@ -22,6 +22,7 @@ class Welcome extends React.Component {
 }
 
 ** default export will export the function irrespective of the name of the function
+** property are assigned in the constructor() method
 
 
 FUNCTIONAL-----------
