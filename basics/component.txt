@@ -23,7 +23,9 @@ class Welcome extends React.Component {
 
 ** default export will export the function irrespective of the name of the function
 ** property are assigned in the constructor() method
-
+** super() refers to thr parent class.
+        by calling super() method in the constructor() method, we call the parent's constructor()
+        method and get access to the parent properties and methods********************
 
 FUNCTIONAL-----------
 *Simple functions
@@ -80,4 +82,4 @@ CLASS---------
 state && true
 if the state is false, nothing is returned 
 
-MAP method id a javascript code which needs to be evaluated
+***MAP method id a javascript code which needs to be evaluated
