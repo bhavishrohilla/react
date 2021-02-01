@@ -7,24 +7,22 @@ function NameList() {
         id : 1,
         name : 'Bruce',
         age : '21',
-        skills : 'python'
+        skills : 'Python'
         },
         {
             id : 2,
             name : 'Clark',
             age : '22',
-            skills : 'javascript'
+            skills : 'Javascript'
         },
         {
             id : 3,
             name : 'Diana',
             age : '20',
-            skills : 'vue'
+            skills : 'Data Science'
         }
     ]
-    const personList = persons.map(person => 
-    <Person person={person} />
-    )
+    const personList = persons.map(person => <Person person={person} />)
     
     return (
         <div>{personList}</div>
