@@ -83,3 +83,6 @@ state && true
 if the state is false, nothing is returned 
 
 ***MAP method id a javascript code which needs to be evaluated
+**Each child in a list should have a unique "key" prop.
+**"key" prop is used by React to make lists more efficient. It specifies the elements which are present inside the list 
+        through "key" prop.(So key prop is reserved already in REACT)
