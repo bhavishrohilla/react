@@ -79,3 +79,5 @@ CLASS---------
  ---------SHORT CIRCUIT
 state && true
 if the state is false, nothing is returned 
+
+MAP method id a javascript code which needs to be evaluated
