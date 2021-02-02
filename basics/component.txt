@@ -88,7 +88,7 @@ if the state is false, nothing is returned
         through "key" prop.(So key prop is reserved already in REACT)
 
 --------LISTS AND KEYS--------------
-a key is a special string attribute yoou need to include when creating lists of attributes.
+a key is a special string attribute you need to include when creating lists of attributes.
 keys give the elements a stable identity
 keys  help React identify items are changed, are removed or are added
 help is efficient update of the user interface.

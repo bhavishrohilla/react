@@ -22,11 +22,11 @@ function NameList() {
             skills : 'Data Science'
         }
     ]
-    const personList = persons.map(person => <Person key={person.id} person={person} />)
+    const names = ['Bruce', 'Clark', 'Diana', 'Clark']
+    // key is only for element stability
+    const nameList = names.map((name,index) => <h2 key={index}>{index} {name}</h2>)
     
-    return (
-        <div>{personList}</div>
-    )
+    return <div>{nameList}</div>
 }
 
 export default NameList
