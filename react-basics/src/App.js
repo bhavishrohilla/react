@@ -24,7 +24,7 @@ class App extends Component {
       <div className="App">
         <h1 className="error">Error</h1>
         <h1 className={styles.success}>Success</h1>
-        {/* <Inline /> */}
+        <Inline />
         {/* <Stylesheet primary = {true}/> */}
         {/* <NameList /> */}
         {/* <UserGreeting /> */}
