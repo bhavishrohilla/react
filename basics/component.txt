@@ -103,3 +103,5 @@ help is efficient update of the user interface.
 2. Inline 
 3.CSS modules
 4.CSS in js librabries
+
+*we can pass conditional prop in styling as class 
