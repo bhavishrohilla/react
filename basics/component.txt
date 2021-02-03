@@ -92,3 +92,14 @@ a key is a special string attribute you need to include when creating lists of a
 keys give the elements a stable identity
 keys  help React identify items are changed, are removed or are added
 help is efficient update of the user interface.
+
+---------------WHY USE INDEX AS A "KEY" ??
+1. The items in your list donot have a unique id.
+2. The list is a static list amd will not change.
+3.The list will never be reordered or filtered.
+
+-------STYLING REACT COMPONENTS----
+1.CSS Stylesheets
+2. Inline 
+3.CSS modules
+4.CSS in js librabries
