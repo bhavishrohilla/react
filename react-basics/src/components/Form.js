@@ -7,7 +7,8 @@ export class Form extends Component {
     
         this.state = {
              username : '',
-             comments : ''
+             comments : '',
+             topic : '---'
         }
     }
     //when you assign a handler onChange event, the event itself is passed to the parameter to the handler
@@ -21,10 +22,21 @@ export class Form extends Component {
             comments: event.target.value
         })
     }
+    handleTopicChange = event => {
+        this.setState({
+            topic : event.target.value
+        })
+    }
+    handleSubmit = event => {
+        alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`)
+    //as on dismissing the alert we lose the data filled in the form, so to prevent that
+        event.preventDefault()
+    //this will prevent the default behaviour of form submission
+    }
 
     render() {
         return (
-            <form>
+            <form onSubmit={this.handleSubmit}>
                 <div>
                     <label>Username</label>
                     <input type="text" value={this.state.username} onChange={this.handleUsernameChange}/>
@@ -33,6 +45,16 @@ export class Form extends Component {
                     <label>Comments</label>
                     <textarea value={this.state.comments} onChange={this.handleCommentsChange}/>
                 </div>
+                <div>
+                    <label>Topic</label>
+                    <select value={this.state.topic} onChange={this.handleTopicChange}>
+                    <option value="none">---</option>
+                        <option value="react">React</option>
+                        <option value="android">Android</option>
+                        <option value="vue">Vue</option>
+                    </select>
+                </div>
+                <button type="submit">Submit</button>
             </form>
         )
     }
