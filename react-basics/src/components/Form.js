@@ -28,7 +28,8 @@ export class Form extends Component {
         })
     }
     handleSubmit = event => {
-        alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`)
+        alert(`username=${this.state.username} \ncomment=${this.state.comments} \ntopic=${this.state.topic}`)
+        // \n for changing line in alert messege
     //as on dismissing the alert we lose the data filled in the form, so to prevent that
         event.preventDefault()
     //this will prevent the default behaviour of form submission
