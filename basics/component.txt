@@ -105,3 +105,9 @@ help is efficient update of the user interface.
 4.CSS in js librabries
 
 *we can pass conditional prop in styling as class 
+-------LIFECYCLE METHODS-------------
+MOUNTING - when an instance of a component is being created and inserted into a DOM
+UPSATING - when a component is re rendered as a result of changes to either its props or states
+UNMOUNTING - when a component is being removed from a DOM
+ERROR HANDLING - when there is an error during rendering, in a lifecycle method, or in the
+                 constructor of any child component.
