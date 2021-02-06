@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import LifeCycleB from './LifeCycleB'
 
-class LifeCycleA extends Component {
+class LifeCycleB extends Component {
 
     constructor(props) {
         super(props)
@@ -9,25 +8,24 @@ class LifeCycleA extends Component {
         this.state = {
              name: 'Vishwaas'
         }
-        console.log('LifeCycle A constructed')
+        console.log('LifeCycle B constructed')
     }
     static getDerivedStateFromProps() {
-        console.log('Lifecycle A getDerivedStateFromProps')
+        console.log('Lifecycle B getDerivedStateFromProps')
         return null
     }
     componentDidMount(){
-        console.log('LifeCycleA componentDidMount')
+        console.log('LifeCycleB componentDidMount')
     }
     
     render() {
         console.log('render')
         return (
             <div>
-                LifeCycleA
-                <LifeCycleB />
+                LifeCycleB
             </div>
         )
     }
 }
 
-export default LifeCycleA
+export default LifeCycleB

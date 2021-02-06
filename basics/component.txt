@@ -111,3 +111,5 @@ UPSATING - when a component is re rendered as a result of changes to either its 
 UNMOUNTING - when a component is being removed from a DOM
 ERROR HANDLING - when there is an error during rendering, in a lifecycle method, or in the
                  constructor of any child component.
+
+The componentDidMount() method of parent class will be executed in the last, even after the child's class componentDidMount() method
