@@ -21,6 +21,14 @@ import LifeCycleA from './components/LifeCycleA';
 
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+       name : 'Vishwas'
+    }
+  }
+  
   render() {
     return (
       <div className="App">
