@@ -10,11 +10,19 @@ class LifeCycleA extends Component {
         }
         console.log('LifeCycle A constructed')
     }
+    static getDerivedStateFromProps() {
+        console.log('Lifecycle A getDerivedStateFromProps')
+        return null
+    }
+    componentDidMount(){
+        console.log('componentDidMount')
+    }
     
     render() {
+        console.log('render')
         return (
             <div>
-                
+                LifeCycleA
             </div>
         )
     }
