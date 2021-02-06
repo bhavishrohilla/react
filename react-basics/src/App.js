@@ -27,6 +27,7 @@ class App extends Component {
     this.state = {
        name : 'Vishwas'
     }
+    console.log('LifecycleA constructed'))
   }
   
   render() {
